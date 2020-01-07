@@ -1,0 +1,81 @@
+/* ESTILOS GLOBALES */
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    padding-top: 78px;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+/* FIN ESTILOS GLOBALES */
+
+/* ESTILOS HEADER */
+
+.header{
+    background: white;
+    border-bottom: 1px solid #f1ecec;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.container {
+    width: 950px;
+    margin: auto;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+#input-search {
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #f1ecec;
+}
+
+.brand-img{
+    width: 185px;
+}
+.menu-icons{
+    display: flex;
+}
+.menu-icons li a i{
+    margin: 0 15px;
+    font-size: 25px;
+    color: black;
+}
+/*FIN ESTILOS HEADER */
+
+/* ESTILOS SECTION-BODY */
+.content-body{
+    padding-top: 5em;
+    position: relative;
+    height: 100%;
+}
+
+/* ESTILOS PUBLISHMENT */
+.content{
+    float: left;
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+}
+.publishment{
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+}
+
+/* ESTILOS PUBLISHMENT */
+.stories{
+float: right;
+width: 30%;
+}
